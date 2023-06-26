@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Git/Git2.41安装和配置.md",
-                "mode": "preview",
+                "file": "document/Git/上传项目到GitHub.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Git/Git2.41安装和配置.md"
+                "file": "document/Git/上传项目到GitHub.md"
               }
             }
           }
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/Git/Git2.41安装和配置.md",
+                "file": "document/Git/上传项目到GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Git/Git2.41安装和配置.md",
+                "file": "document/Git/上传项目到GitHub.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,6 +168,11 @@
   },
   "active": "fb2fc59fec9b928c",
   "lastOpenFiles": [
+    "document/Git/annex/Pasted image 20230626233737.png",
+    "document/虚拟机/虚拟机安装ubuntu20.04.md",
+    "document/Git/上传项目到GitHub.md",
+    "document/虚拟机/虚拟机安装macOS13.20.md",
+    "document/Git/Git2.41安装和配置.md",
     "document/Git/annex/Pasted image 20230626230801.png",
     "document/Git/annex/Pasted image 20230626224050.png",
     "document/Git/annex/Pasted image 20230626223725.png",
@@ -175,15 +180,11 @@
     "document/Git/annex/Pasted image 20230626223425.png",
     "document/Git/annex/Pasted image 20230626223154.png",
     "document/基本语法.md",
-    "document/Git/Git2.41安装和配置.md",
     "document/Git/annex/Pasted image 20230626222320.png",
     "document/Git/annex/Pasted image 20230626221458.png",
     "document/Git/annex/Pasted image 20230626221311.png",
     "document/Git/annex/Pasted image 20230626221245.png",
-    "document/Git/annex/Pasted image 20230626220854.png",
-    "document/虚拟机/虚拟机安装macOS13.20.md",
     "document/Git/annex",
-    "document/虚拟机/虚拟机安装ubuntu20.04.md",
     "index.md",
     "document/Git",
     "static/彩色时钟.md",
@@ -212,7 +213,6 @@
     "static/md/DigitalClock.md",
     "static/js/ColorfulClock.md",
     "static/tp/tp_foldermoc-Include-subfolders.md",
-    "static/tp/tp.md",
-    "static/tp/tp-默认笔记模板.md"
+    "static/tp/tp.md"
   ]
 }

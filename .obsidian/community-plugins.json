@@ -10,5 +10,6 @@
   "workspaces-plus",
   "homepage",
   "quickadd",
-  "editing-toolbar"
+  "editing-toolbar",
+  "obsidian-git"
 ]
