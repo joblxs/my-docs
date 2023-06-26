@@ -8,5 +8,6 @@
   "showLineNumber": true,
   "spellcheck": false,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "newLinkFormat": "relative"
 }

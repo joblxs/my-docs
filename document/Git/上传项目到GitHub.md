@@ -1,6 +1,6 @@
 ## 在GitHub创建仓库
 - 登录GitHub，创建仓库
-![](Pasted%20image%2020230626233737.png)
+![](annex/Pasted%20image%2020230626233737.png)
 ```bash
 git init //把这个目录变成Git可以管理的仓库
 git add README.md //文件添加到仓库

@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -89,8 +89,21 @@
                 "file": "document/Git/上传项目到GitHub.md"
               }
             }
+          },
+          {
+            "id": "f39d7dd77be19d71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "static/彩色时钟.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "dab5be8979ccaaaa",
@@ -168,26 +181,25 @@
   },
   "active": "fb2fc59fec9b928c",
   "lastOpenFiles": [
+    "document/Git/Git2.41安装和配置.md",
+    "document/Git/annex/Pasted image 20230626234549.png",
+    "index.md",
+    "static/彩色时钟.md",
+    "document/基本语法.md",
+    "document/Git/上传项目到GitHub.md",
     "document/Git/annex/Pasted image 20230626233737.png",
     "document/虚拟机/虚拟机安装ubuntu20.04.md",
-    "document/Git/上传项目到GitHub.md",
     "document/虚拟机/虚拟机安装macOS13.20.md",
-    "document/Git/Git2.41安装和配置.md",
     "document/Git/annex/Pasted image 20230626230801.png",
     "document/Git/annex/Pasted image 20230626224050.png",
     "document/Git/annex/Pasted image 20230626223725.png",
     "document/Git/annex/Pasted image 20230626223709.png",
     "document/Git/annex/Pasted image 20230626223425.png",
     "document/Git/annex/Pasted image 20230626223154.png",
-    "document/基本语法.md",
     "document/Git/annex/Pasted image 20230626222320.png",
     "document/Git/annex/Pasted image 20230626221458.png",
-    "document/Git/annex/Pasted image 20230626221311.png",
-    "document/Git/annex/Pasted image 20230626221245.png",
     "document/Git/annex",
-    "index.md",
     "document/Git",
-    "static/彩色时钟.md",
     "static/常用工具.md",
     "static/button.md",
     "20-Diary/2023-06-26.md",
