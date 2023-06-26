@@ -1,0 +1,13 @@
+{
+  "choices": [],
+  "macros": [],
+  "inputPrompt": "multi-line",
+  "devMode": false,
+  "templateFolderPath": "static/tp",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true
+  }
+}
