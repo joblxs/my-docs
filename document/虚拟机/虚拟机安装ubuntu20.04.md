@@ -9,70 +9,70 @@
 #### 新建虚拟机
 - 打开VMware17，创建新虚拟机，并选择典型安装
 
-![[虚拟机/annex/Pasted image 20230624203959.png]]
+![](annex/Pasted%20image%2020230624203959.png)
 
 - 点击浏览，选择下载好Ubuntu系统镜像，点击下一步
-![[虚拟机/annex/Pasted image 20230624203900.png]]
+![](annex/Pasted%20image%2020230624203900.png)
 - 输入用户名，进行下一步
-![[虚拟机/annex/Pasted image 20230624204207.png]]
+![](annex/Pasted%20image%2020230624204207.png)
 - 设置名称及选择安装的位置，进行下一步
-![[虚拟机/annex/Pasted image 20230624204410.png]]
+![](annex/Pasted%20image%2020230624204410.png)
 - 设定磁盘大小，选择将虚拟磁盘存储为单个文件，进行下一步
-![[虚拟机/annex/Pasted image 20230624204512.png]]
+![](annex/Pasted%20image%2020230624204512.png)
 - 自定义硬件，设定好之后，点击完成
-![[虚拟机/annex/Pasted image 20230624204620.png]]
-![[虚拟机/annex/Pasted image 20230624204746.png]]
+![](annex/Pasted%20image%2020230624204620.png)
+![](annex/Pasted%20image%2020230624204746.png)
 #### 开启虚拟机
 - 点击开启此虚拟机，等待安装
-![[虚拟机/annex/Pasted image 20230624204916.png]]
+![](annex/Pasted%20image%2020230624204916.png)
 - 点击登录
-![[虚拟机/annex/Pasted image 20230624210035.png]]
-![[虚拟机/annex/Pasted image 20230624210128.png]]
+![](annex/Pasted%20image%2020230624210035.png)
+![](annex/Pasted%20image%2020230624210128.png)
 - 关闭，设置网络
-![[虚拟机/annex/Pasted image 20230624211352.png]]
+![](annex/Pasted%20image%2020230624211352.png)
 #### 配置
 ###### - 设置为中文
-![[虚拟机/annex/Pasted image 20230624210223.png]]
-![[虚拟机/annex/Pasted image 20230624211631.png]]
-![[虚拟机/annex/Pasted image 20230624211817.png]]
+![](annex/Pasted%20image%2020230624210223.png)
+![](annex/Pasted%20image%2020230624211631.png)
+![](annex/Pasted%20image%2020230624211817.png)
 - 选择
-![[虚拟机/annex/Pasted image 20230624211946.png]]
-![[虚拟机/annex/Pasted image 20230624212053.png]]
-![[虚拟机/annex/Pasted image 20230624212449.png]]
+![](annex/Pasted%20image%2020230624211946.png)
+![](annex/Pasted%20image%2020230624212053.png)
+![](annex/Pasted%20image%2020230624212449.png)
 - 如果这时不能设置，先设置时区
-![[虚拟机/annex/Pasted image 20230624212747.png]]
+![](annex/Pasted%20image%2020230624212747.png)
 ###### - 设置时区
 - 打开设置，选择date & time，设置Time Zone
-![[虚拟机/annex/Pasted image 20230624213421.png]]
+![](annex/Pasted%20image%2020230624213421.png)
 - 选择东八区，如果看不到关闭按钮，先进行分辨率的设置
-![[虚拟机/annex/Pasted image 20230624214031.png]]
+![](annex/Pasted%20image%2020230624214031.png)
 ###### - 设置分辨率
 - 打开终端，安装open-vm-tools
-![[虚拟机/annex/Pasted image 20230624214225.png]]
+![](annex/Pasted%20image%2020230624214225.png)
 - 更新系统源
 ```bash
 sudo apt-get update
 ```
-![[虚拟机/annex/Pasted image 20230624214419.png]]
+![](annex/Pasted%20image%2020230624214419.png)
 - 安装open-vm-tools
 ```bash
 sudo apt-get install open-vm-tools
 ```
-![[虚拟机/annex/Pasted image 20230624214555.png]]
+![](annex/Pasted%20image%2020230624214555.png)
 - 安装完毕后再次回到设置时区设置
-![[虚拟机/annex/Pasted image 20230624214724.png]]
+![](annex/Pasted%20image%2020230624214724.png)
 - 再次回到设置语言设置页
-![[虚拟机/annex/Pasted image 20230624214821.png]]
+![](annex/Pasted%20image%2020230624214821.png)
 - 点击重启
-![[虚拟机/annex/Pasted image 20230624214833.png]]
+![](annex/Pasted%20image%2020230624214833.png)
 - 设置中文完毕
-![[虚拟机/annex/Pasted image 20230624215015.png]]
+![](annex/Pasted%20image%2020230624215015.png)
 - 改完中文键盘
-![[虚拟机/annex/Pasted image 20230624210551.png]]
-![[虚拟机/annex/Pasted image 20230624210643.png]]
-![[虚拟机/annex/Pasted image 20230624210706.png]]
+![](annex/Pasted%20image%2020230624210551.png)
+![虚拟机/annex/Pasted image 20230624210643.png](%E8%99%9A%E6%8B%9F%E6%9C%BA/annex/Pasted%20image%2020230624210643.png)
+![虚拟机/annex/Pasted image 20230624210706.png](%E8%99%9A%E6%8B%9F%E6%9C%BA/annex/Pasted%20image%2020230624210706.png)
 
-![[虚拟机/annex/Pasted image 20230624210803.png]]
+![](annex/Pasted%20image%2020230624210803.png)
 ###### - 跨系统复制粘贴
 - 安装open-vm-tools-desktop，实现虚拟机和物理机之间的文件相互拖拽和复制、粘贴
 ```bash
@@ -82,6 +82,6 @@ sudo apt-get remove open-vm-tools-desktop -y
 sudo apt-get install open-vm-tools-desktop
 ```
 ###### -  更改Ubuntu软件源
-![[虚拟机/annex/Pasted image 20230624220950.png]]
+![](annex/Pasted%20image%2020230624220950.png)
 - 选择下载自：其他站点
-![[虚拟机/annex/Pasted image 20230624221153.png]]
+![](annex/Pasted%20image%2020230624221153.png)

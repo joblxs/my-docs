@@ -1,15 +1,10 @@
 [
-  "dataview",
-  "templater-obsidian",
-  "obsidian-admonition",
-  "obsidian-react-components",
-  "obsidian-banners",
   "obsidian-style-settings",
-  "buttons",
   "calendar",
-  "workspaces-plus",
-  "homepage",
-  "quickadd",
   "editing-toolbar",
-  "obsidian-git"
+  "wikilinks-to-mdlinks-obsidian",
+  "cm-editor-syntax-highlight-obsidian",
+  "oz-clear-unused-images",
+  "dataview",
+  "table-editor-obsidian"
 ]

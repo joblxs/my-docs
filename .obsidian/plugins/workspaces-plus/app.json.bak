@@ -1,8 +1,0 @@
-{
-  "showFrontmatter": true,
-  "defaultViewMode": "preview",
-  "foldHeading": false,
-  "attachmentFolderPath": "./annex",
-  "useMarkdownLinks": true,
-  "showUnsupportedFiles": true
-}

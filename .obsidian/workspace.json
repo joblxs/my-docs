@@ -1,19 +1,31 @@
 {
   "main": {
-    "id": "302416fb046d8713",
+    "id": "cf08c634ea2e8beb",
     "type": "split",
     "children": [
       {
-        "id": "e0b336c3a8d1b72f",
+        "id": "72a731554a648f02",
         "type": "tabs",
         "children": [
           {
-            "id": "fb2fc59fec9b928c",
+            "id": "5f18e152da56398f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/Git/上传项目到GitHub.md",
+                "file": "document/虚拟机/虚拟机安装macOS13.20.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "93d96244a73a10bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "document/Git/Git2.41安装和配置.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,25 +37,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c666e2c9ba25ae00",
+    "id": "1b4e03d43fc8fdbc",
     "type": "split",
     "children": [
       {
-        "id": "90faf9fa4b5d835f",
+        "id": "b9e6c31a40384237",
         "type": "tabs",
         "children": [
           {
-            "id": "e40b8bc779e980c0",
+            "id": "dd8dc4830d0c3622",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "2e55544efe5aee65",
+            "id": "e6ae5179d50a3e64",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +70,7 @@
             }
           },
           {
-            "id": "6fd17e9cae3c2898",
+            "id": "acca7f6299bde218",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,57 +81,29 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 264.5
   },
   "right": {
-    "id": "6ee0f185e702bff1",
+    "id": "b2eb0dd7d62cbb43",
     "type": "split",
     "children": [
       {
-        "id": "0f05f8971a7181ad",
+        "id": "c4302c0d1642a874",
         "type": "tabs",
-        "dimension": 46.25,
+        "dimension": 44.57364341085272,
         "children": [
           {
-            "id": "d3deb2dcaa03d73f",
+            "id": "691af20a600789a2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/Git/上传项目到GitHub.md"
+                "file": "document/虚拟机/虚拟机安装macOS13.20.md"
               }
             }
           },
           {
-            "id": "f39d7dd77be19d71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "static/彩色时钟.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "dab5be8979ccaaaa",
-        "type": "tabs",
-        "dimension": 53.75,
-        "children": [
-          {
-            "id": "a5e1240a8204ce51",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "6822b70983577611",
+            "id": "91500774db61674c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -130,30 +114,53 @@
             }
           },
           {
-            "id": "eb39dc146fb723e5",
+            "id": "e2bc11feedbb7c8f",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "document/Git/上传项目到GitHub.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "8c8d88f53df9034d",
+        "type": "tabs",
+        "dimension": 55.42635658914728,
+        "children": [
+          {
+            "id": "474787bf47ef06f1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           },
           {
-            "id": "d39ee92b3f0a6616",
+            "id": "0e2051cb7752d214",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/Git/上传项目到GitHub.md",
-                "collapseAll": true,
+                "file": "document/虚拟机/虚拟机安装macOS13.20.md",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bc7e58b12b7972f4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "document/虚拟机/虚拟机安装macOS13.20.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -172,59 +179,38 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
       "audio-recorder:开始/结束录音": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "workspaces:管理工作区布局": false,
-      "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb2fc59fec9b928c",
+  "active": "691af20a600789a2",
   "lastOpenFiles": [
-    "document/Git/Git2.41安装和配置.md",
-    "document/Git/annex/Pasted image 20230626234549.png",
-    "index.md",
-    "static/彩色时钟.md",
+    "document/知识网站/免费知乎盐选分享.md",
     "document/基本语法.md",
-    "document/Git/上传项目到GitHub.md",
-    "document/Git/annex/Pasted image 20230626233737.png",
     "document/虚拟机/虚拟机安装ubuntu20.04.md",
     "document/虚拟机/虚拟机安装macOS13.20.md",
-    "document/Git/annex/Pasted image 20230626230801.png",
-    "document/Git/annex/Pasted image 20230626224050.png",
-    "document/Git/annex/Pasted image 20230626223725.png",
-    "document/Git/annex/Pasted image 20230626223709.png",
-    "document/Git/annex/Pasted image 20230626223425.png",
-    "document/Git/annex/Pasted image 20230626223154.png",
-    "document/Git/annex/Pasted image 20230626222320.png",
-    "document/Git/annex/Pasted image 20230626221458.png",
+    "document/虚拟机/annex/2023-06-23-18-58-30-image.png",
+    "document/虚拟机/annex/2023-06-23-19-18-57-image.png",
+    "document/虚拟机/annex/2023-06-23-19-11-59-image.png",
+    "document/虚拟机/annex/2023-06-23-19-10-23-image.png",
+    "document/虚拟机/annex/2023-06-23-19-08-55-image.png",
+    "document/虚拟机/annex/2023-06-23-19-05-29-image.png",
+    "document/虚拟机/annex/2023-06-23-19-05-08-image.png",
+    "document/虚拟机/annex/2023-06-23-19-03-08-image.png",
+    "document/虚拟机/annex/2023-06-23-19-01-05-image.png",
+    "document/虚拟机/annex/2023-06-23-18-56-47-image.png",
+    "document/虚拟机/images",
+    "document/Git/Git2.41安装和配置.md",
+    "新建文件夹",
+    "document/虚拟机/annex",
+    "document/虚拟机",
+    "document/知识网站",
+    "document/搞机",
     "document/Git/annex",
+    "document/Git/上传项目到GitHub.md",
     "document/Git",
-    "static/常用工具.md",
-    "static/button.md",
-    "20-Diary/2023-06-26.md",
-    "20-Diary",
-    "2023-06-26.md",
-    "untitled.md",
-    "static/js/bookfromdouban.js",
-    "30-Reading",
-    "static/js/notice.js",
-    "static/md/react_buttons.md",
-    "static/md/button.md",
-    "static/image/banner",
-    "static/image",
-    "static/新建文件夹",
-    "Home.md",
-    "static/js/refreshhomepage.js",
-    "static/md/返回当前活动笔记的所有反向链接.md",
-    "static/md/slidegallery.md",
-    "static/md/ReactJS.md",
-    "static/md/react_weather.md",
-    "static/md/react_music.md",
-    "static/md/moc.md",
-    "static/md/DigitalClock.md",
-    "static/js/ColorfulClock.md",
-    "static/tp/tp_foldermoc-Include-subfolders.md",
-    "static/tp/tp.md"
+    "document"
   ]
 }
