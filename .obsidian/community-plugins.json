@@ -5,6 +5,9 @@
   "wikilinks-to-mdlinks-obsidian",
   "cm-editor-syntax-highlight-obsidian",
   "oz-clear-unused-images",
+  "table-editor-obsidian",
+  "novel-word-count",
   "dataview",
-  "table-editor-obsidian"
+  "obsidian-echarts",
+  "heatmap-calendar"
 ]
