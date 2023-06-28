@@ -20,30 +20,16 @@
     "home.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 643,
-      "pageCount": 2.1433333333333335,
-      "characterCount": 6957,
-      "nonWhitespaceCharacterCount": 4854,
+      "wordCount": 688,
+      "pageCount": 2.2933333333333334,
+      "characterCount": 7193,
+      "nonWhitespaceCharacterCount": 5041,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1687953245915,
-      "modifiedDate": 1687955692278,
-      "sizeInBytes": 7369
-    },
-    "document/VS Code/vsCode安装和基本配置.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 61,
-      "pageCount": 0.20333333333333334,
-      "characterCount": 874,
-      "nonWhitespaceCharacterCount": 813,
-      "linkCount": 0,
-      "embedCount": 8,
-      "aliases": null,
-      "createdDate": 1687954434963,
-      "modifiedDate": 1687956300747,
-      "sizeInBytes": 1248
+      "modifiedDate": 1687965019063,
+      "sizeInBytes": 7679
     },
     "document/虚拟机/虚拟机安装ubuntu20.04.md": {
       "isDirectory": false,
@@ -100,6 +86,20 @@
       "createdDate": 1687871853863,
       "modifiedDate": 1687878059866,
       "sizeInBytes": 5307
+    },
+    "document/VS Code/vsCode安装和基本配置.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 76,
+      "pageCount": 0.25333333333333335,
+      "characterCount": 898,
+      "nonWhitespaceCharacterCount": 823,
+      "linkCount": 0,
+      "embedCount": 6,
+      "aliases": null,
+      "createdDate": 1687954434963,
+      "modifiedDate": 1687958673837,
+      "sizeInBytes": 1316
     },
     "document/Git/上传项目到GitHub.md": {
       "isDirectory": false,

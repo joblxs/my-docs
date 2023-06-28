@@ -5,24 +5,33 @@
 ```dataviewjs
 //计算本月有多少天,还剩多少天
 let today = new Date()
+// 获取当前小时数
+let hour = today.getHours();
+// 判断当前时间是早上、中午还是下午、晚上
+let hoursTip = '晚上';
+if (hour >= 5 && hour < 12) {
+	hoursTip = '早上';
+} else if (hour >= 12 && hour < 18) {
+	 hoursTip = '下午'
+}
 let lastDayOfMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0)
 let remainingDays = lastDayOfMonth.getDate() - today.getDate() + 1 //还剩多少天
 let totalDays = lastDayOfMonth.getDate() //本月天数
 
 //计算倒计天数
-let targetDate = new Date("2023-12-24")
+let targetDate = new Date("2024-02-10")
 let timeDiff = targetDate.getTime() - today.getTime()
 let daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24)) //倒计天数
 
 //设置日期&weekday输出格式
 const weekday = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'][today.getDay()]
-const formattedDate = `${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')}【${weekday}】` 
+const formattedDate = `${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')} ${weekday}` 
 
 //输出部分
-dv.el('div', `今天是${formattedDate}`);
+dv.el('div', `<b>${hoursTip}</b> 好，今天是${formattedDate}`);
 dv.el('div','本月还剩 <b>'+remainingDays+'</b> 天')
 dv.el('progress',null,{attr:{max:totalDays,value:remainingDays}} ) //进度条 1
-dv.el('div','倒计还剩 <b>'+daysDiff+' </b>天')
+dv.el('div','离春节还有 <b>'+daysDiff+' </b>天')
 dv.el('progress',null,{attr:{max:300,value:daysDiff}}) //进度条2
 ```
 
@@ -81,6 +90,7 @@ renderHeatmapCalendar(this.container, calendarData)
 ---
 
 ```dataviewjs
+/*笔记分布*/
 const echarts = app.plugins.plugins['obsidian-echarts'].echarts()
 let pages= dv.pages()
 	           .groupBy(p => p.file.mday.toFormat("yyyy-MM-dd"))
@@ -162,8 +172,9 @@ const options = {
         // x:'12%',
         width:'82%',
         // y:'12%',
-        left:"5%",
+        left:"6%",
         // right:"30%",
+        // bottom:"30%"
         bottom:"60%"
         
     },

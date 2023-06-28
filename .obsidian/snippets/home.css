@@ -2,57 +2,72 @@
 /*随机诗句样式*/
 div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(3) {
     line-height: 40px;
+    text-align: center;
 }
 
 /*时间样式*/
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > div:nth-child(1) {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) {
+    text-align: center;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) > div > div:nth-child(1) {
     line-height: 40px;
 }
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > div:nth-child(2) {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) > div > div:nth-child(2) {
     display: inline-block;
-    float:left;
-    margin-right:20px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
     line-height: 20px;
 }
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > progress:nth-child(3) {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) > div > progress:nth-child(3) {
     display: inline-block;
-    float:left;
-    margin-right:20px;
+    float: left;
+    margin-right: 20px;
 }
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > div:nth-child(4) {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) > div > div:nth-child(4) {
     display: inline-block;
-    float:left;
-    margin-right:20px;
+    float: left;
+    margin-right: 20px;
     line-height: 20px;
 }
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > progress:nth-child(5) {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) > div > progress:nth-child(5) {
     display: inline-block;
-    float:left;
-    margin-right:20px;
+    float: left;
+    margin-right: 20px;
 }
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > progress {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) > div > progress {
     width: 168px;
     height: 20px;
     background-color: #fff;
 }
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > progress::-webkit-progress-value {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) > div > progress::-webkit-progress-value {
     background: lightskyblue;
 }
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) > div {
     overflow: hidden;
     font-size: 18px;
     margin-bottom:30px;
 }
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > div > span > b {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(5) > div > div > span > b {
     font-size: 20px;
     color: red;
 }
 
 /*统计文档、标签、任务数*/
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(6) > div {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(7) {
+    text-align: center;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(7) > div {
     font-size: 18px;
 }
-div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(6) > div > div > span > b {
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(7) > div > div > span > b {
     font-size: 20px;
     color: red;
 }
+
+/* div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(11) > div > div > div:nth-child(1) {
+    height: 300px !important;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(11) > div > div > div:nth-child(1) > canvas {
+    height: 300px !important;
+} */
