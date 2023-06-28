@@ -1,3 +1,7 @@
+<iframe scrolling="no" src="https://v2.jinrishici.com/one.svg?font-size=28&spacing=2&color=bleak" frameborder="0" width="500" height="30" allowtransparency="true"></iframe>
+
+---
+
 ```dataviewjs
 //计算本月有多少天,还剩多少天
 let today = new Date()
@@ -11,16 +15,35 @@ let timeDiff = targetDate.getTime() - today.getTime()
 let daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24)) //倒计天数
 
 //设置日期&weekday输出格式
-const weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][today.getDay()]
-const formattedDate = `${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')} --${weekday}` 
+const weekday = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'][today.getDay()]
+const formattedDate = `${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')}【${weekday}】` 
 
 //输出部分
-dv.el('div', formattedDate);
-dv.el('div','本月还剩'+remainingDays+'天')
+dv.el('div', `今天是${formattedDate}`);
+dv.el('div','本月还剩 <b>'+remainingDays+'</b> 天')
 dv.el('progress',null,{attr:{max:totalDays,value:remainingDays}} ) //进度条 1
-dv.el('div','倒计还剩'+daysDiff+' /300天')
+dv.el('div','倒计还剩 <b>'+daysDiff+' </b>天')
 dv.el('progress',null,{attr:{max:300,value:daysDiff}}) //进度条2
 ```
+
+---
+
+```dataviewjs
+// 显示使用时间。代码思路：查询最早一篇文章日期，计算与当下的日期差。
+let ftMd = dv.pages("").file.sort(t => t.mday)[0]
+let total = parseInt([new Date() - ftMd.ctime] / (60*60*24*1000))
+dv.el('div', `距今已使用ob <b>${total}</b> 天`);
+
+// 统计文档、标签、任务数。代码说明，排除文件夹 10 归档/Template
+let nofold = '' // !"10 归档/Template"
+let allFile = dv.pages(nofold).file
+let totalMd = allFile.length
+let totalTag = allFile.etags.distinct().length
+let totalTask = allFile.tasks.length
+dv.el('div', `共创建 <b>${totalMd}</b> 篇文档 <b> ${totalTag}</b> 个标签 <b>${totalTask}</b> 个待办`);
+```
+
+---
 
 ```dataviewjs
 dv.span("** 😊  😥**") /* optional ⏹️💤⚡⚠🧩↑↓⏳📔💾📁📝🔄📝🔀⌨️🕸️📅🔍✨ */
@@ -42,7 +65,7 @@ const calendarData = {
 }
 
 //DataviewJS loop
-for (let page of dv.pages('"/"').where(p => p.exercise)) {
+for (let page of dv.pages('"document"').where(p => p.exercise)) {
     //dv.span("<br>" + page.file.name) // uncomment for troubleshooting
     calendarData.entries.push({
         date: page.file.name,     // (required) Format YYYY-MM-DD
@@ -55,25 +78,12 @@ for (let page of dv.pages('"/"').where(p => p.exercise)) {
 renderHeatmapCalendar(this.container, calendarData)
 ```
 
- ```dataviewjs
-let nofold = ''
-let ftMd = dv.pages("").file.sort(t => t.mday)[0]
-let total = parseInt([new Date() - ftMd.ctime] / (60*60*24*1000))
-let allFile = dv.pages(nofold).file
-dv.paragraph(`
->[!note|noicon] ## Ob天数 [[echarts-笔记动态显示-分布|${total}]]
->
-`)
-```
-
-
-<iframe scrolling="no" src="https://v2.jinrishici.com/one.svg?font-size=28&spacing=2&color=bleak" frameborder="0" width="500" height="30" allowtransparency="true"></iframe>
-
+---
 
 ```dataviewjs
 const echarts = app.plugins.plugins['obsidian-echarts'].echarts()
 let pages= dv.pages()
-	           .groupBy(p => p.file.mday.toFormat("yyyy-MM:dd"))
+	           .groupBy(p => p.file.mday.toFormat("yyyy-MM-dd"))
            .map(p => ({cday: p.key , count: p.rows.length,wordcout:p.rows.values}))
            .array();
   function sumItem(arr1, arr2) {
@@ -150,9 +160,9 @@ const options = {
     },
     grid:{
         // x:'12%',
-        width:'95%',
+        width:'82%',
         // y:'12%',
-        left:"10%",
+        left:"5%",
         // right:"30%",
         bottom:"60%"
         
@@ -232,4 +242,3 @@ const options = {
 app.plugins.plugins['obsidian-echarts'].render(options, this.container)
 
 ```
-

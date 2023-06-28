@@ -1,0 +1,58 @@
+/*home页css样式*/
+/*随机诗句样式*/
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(3) {
+    line-height: 40px;
+}
+
+/*时间样式*/
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > div:nth-child(1) {
+    line-height: 40px;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > div:nth-child(2) {
+    display: inline-block;
+    float:left;
+    margin-right:20px;
+    line-height: 20px;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > progress:nth-child(3) {
+    display: inline-block;
+    float:left;
+    margin-right:20px;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > div:nth-child(4) {
+    display: inline-block;
+    float:left;
+    margin-right:20px;
+    line-height: 20px;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > progress:nth-child(5) {
+    display: inline-block;
+    float:left;
+    margin-right:20px;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > progress {
+    width: 168px;
+    height: 20px;
+    background-color: #fff;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > progress::-webkit-progress-value {
+    background: lightskyblue;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div {
+    overflow: hidden;
+    font-size: 18px;
+    margin-bottom:30px;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(4) > div > div > span > b {
+    font-size: 20px;
+    color: red;
+}
+
+/*统计文档、标签、任务数*/
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(6) > div {
+    font-size: 18px;
+}
+div > div.view-content > div.markdown-reading-view > div > div > div:nth-child(6) > div > div > span > b {
+    font-size: 20px;
+    color: red;
+}
