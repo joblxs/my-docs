@@ -55,9 +55,17 @@ dv.el('div', `共创建 <b>${totalMd}</b> 篇文档 <b> ${totalTag}</b> 个标�
 ---
 
 ```dataviewjs
+dv.list( dv.pages(``)
+		.filter(p=>moment(Number(p.file.cday)).get("year")==2023)
+		.sort(p=>p.file.cday,'desc')
+		.map(p=>moment(Number(p.file.cday)).format('yyyy-MM-DD')+' >> '+p.file.link)
+)
+```
+
+```dataviewjs
 dv.span("** 😊  😥**") /* optional ⏹️💤⚡⚠🧩↑↓⏳📔💾📁📝🔄📝🔀⌨️🕸️📅🔍✨ */
 const calendarData = {
-    year: 2023,  // (optional) defaults to current year
+    year: 2023,  // (optional) 想要那年的日历配置就是当前年
     colors: {    // (optional) defaults to green
         blue:        ["#8cb9ff", "#69a3ff", "#428bff", "#1872ff", "#0058e2"], // first entry is considered default if supplied
         green:       ["#c6e48b", "#7bc96f", "#49af5d", "#2e8840", "#196127"],
@@ -66,7 +74,7 @@ const calendarData = {
         pink:        ["#ff96cb", "#ff70b8", "#ff3a9d", "#ee0077", "#c30062"],
         orangeToRed: ["#ffdf04", "#ffbe04", "#ff9a03", "#ff6d02", "#ff2c01"]
     },
-    showCurrentDayBorder: true, // (optional) defaults to true
+    showCurrentDayBorder: false, // (optional) 当前天是否加一个黑色框框
     defaultEntryIntensity: 4,   // (optional) defaults to 4
     intensityScaleStart: 10,    // (optional) defaults to lowest value passed to entries.intensity
     intensityScaleEnd: 100,     // (optional) defaults to highest value passed to entries.intensity
@@ -74,10 +82,17 @@ const calendarData = {
 }
 
 //DataviewJS loop
-for (let page of dv.pages('"document"').where(p => p.exercise)) {
+for (let page of dv.pages(``)) {
+	const date = new Date(page.file.cday);
+    const yyyy = date.getFullYear();
+    let mm = date.getMonth() + 1; // Months start at 0!
+    let dd = date.getDate();
+    if (dd < 10) dd = '0' + dd;
+    if (mm < 10) mm = '0' + mm;
+    const formattedDate = yyyy + "-" + mm + '-' + dd;
     //dv.span("<br>" + page.file.name) // uncomment for troubleshooting
     calendarData.entries.push({
-        date: page.file.name,     // (required) Format YYYY-MM-DD
+        date: formattedDate,     // (required) Format YYYY-MM-DD
         intensity: page.exercise, // (required) the data you want to track, will map color intensities automatically
         content: "🏋️",           // (optional) Add text to the date cell
         color: "orange",          // (optional) Reference from *calendarData.colors*. If no color is supplied; colors[0] is used

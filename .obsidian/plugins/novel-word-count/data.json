@@ -20,16 +20,16 @@
     "home.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 688,
-      "pageCount": 2.2933333333333334,
-      "characterCount": 7193,
-      "nonWhitespaceCharacterCount": 5041,
+      "wordCount": 747,
+      "pageCount": 2.49,
+      "characterCount": 7663,
+      "nonWhitespaceCharacterCount": 5412,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1687953245915,
-      "modifiedDate": 1687965019063,
-      "sizeInBytes": 7679
+      "modifiedDate": 1687967873739,
+      "sizeInBytes": 8201
     },
     "document/虚拟机/虚拟机安装ubuntu20.04.md": {
       "isDirectory": false,
