@@ -55,14 +55,6 @@ dv.el('div', `共创建 <b>${totalMd}</b> 篇文档 <b> ${totalTag}</b> 个标�
 ---
 
 ```dataviewjs
-dv.list( dv.pages(``)
-		.filter(p=>moment(Number(p.file.cday)).get("year")==2023)
-		.sort(p=>p.file.cday,'desc')
-		.map(p=>moment(Number(p.file.cday)).format('yyyy-MM-DD')+' >> '+p.file.link)
-)
-```
-
-```dataviewjs
 dv.span("** 😊  😥**") /* optional ⏹️💤⚡⚠🧩↑↓⏳📔💾📁📝🔄📝🔀⌨️🕸️📅🔍✨ */
 const calendarData = {
     year: 2023,  // (optional) 想要那年的日历配置就是当前年

@@ -17,19 +17,33 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
+    "list.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 12,
+      "pageCount": 0.04,
+      "characterCount": 220,
+      "nonWhitespaceCharacterCount": 202,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1688130775092,
+      "modifiedDate": 1688131771676,
+      "sizeInBytes": 220
+    },
     "home.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 747,
-      "pageCount": 2.49,
-      "characterCount": 7663,
-      "nonWhitespaceCharacterCount": 5412,
+      "wordCount": 737,
+      "pageCount": 2.4566666666666666,
+      "characterCount": 7450,
+      "nonWhitespaceCharacterCount": 5216,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1687953245915,
-      "modifiedDate": 1687967873739,
-      "sizeInBytes": 8201
+      "modifiedDate": 1688980627575,
+      "sizeInBytes": 7988
     },
     "document/虚拟机/虚拟机安装ubuntu20.04.md": {
       "isDirectory": false,
