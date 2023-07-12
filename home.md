@@ -12,11 +12,10 @@ let hoursTip = '晚上';
 if (hour >= 5 && hour < 12) {
 	hoursTip = '早上';
 } else if (hour >= 12 && hour < 18) {
-	 hoursTip = '下午'
+	hoursTip = '下午'
 }
 let lastDayOfMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0)
 let remainingDays = lastDayOfMonth.getDate() - today.getDate() + 1 //还剩多少天
-let totalDays = lastDayOfMonth.getDate() //本月天数
 
 //计算倒计天数
 let targetDate = new Date("2024-02-10")
@@ -24,24 +23,16 @@ let timeDiff = targetDate.getTime() - today.getTime()
 let daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24)) //倒计天数
 
 //设置日期&weekday输出格式
-const weekday = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'][today.getDay()]
-const formattedDate = `${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')} ${weekday}` 
+let weekday = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'][today.getDay()]
+let formattedDate = `${today.getFullYear()}-${(today.getMonth() + 1).toString().padStart(2, '0')}-${today.getDate().toString().padStart(2, '0')}` 
 
-//输出部分
-dv.el('div', `<b>${hoursTip}</b> 好，今天是${formattedDate}`);
-dv.el('div','本月还剩 <b>'+remainingDays+'</b> 天')
-dv.el('progress',null,{attr:{max:totalDays,value:remainingDays}} ) //进度条 1
-dv.el('div','离春节还有 <b>'+daysDiff+' </b>天')
-dv.el('progress',null,{attr:{max:300,value:daysDiff}}) //进度条2
+dv.el('div', `<b style="color:red;font-size:20px;">${hoursTip}</b> 好，今天是${formattedDate}，${weekday}，本月还剩 <b style="color:red;font-size:20px;">${remainingDays}</b> 天，离春节还有 <b style="color:red;font-size:20px;">${daysDiff} </b>天`);
 ```
-
----
 
 ```dataviewjs
 // 显示使用时间。代码思路：查询最早一篇文章日期，计算与当下的日期差。
 let ftMd = dv.pages("").file.sort(t => t.mday)[0]
 let total = parseInt([new Date() - ftMd.ctime] / (60*60*24*1000))
-dv.el('div', `距今已使用ob <b>${total}</b> 天`);
 
 // 统计文档、标签、任务数。代码说明，排除文件夹 10 归档/Template
 let nofold = '' // !"10 归档/Template"
@@ -49,7 +40,7 @@ let allFile = dv.pages(nofold).file
 let totalMd = allFile.length
 let totalTag = allFile.etags.distinct().length
 let totalTask = allFile.tasks.length
-dv.el('div', `共创建 <b>${totalMd}</b> 篇文档 <b> ${totalTag}</b> 个标签 <b>${totalTask}</b> 个待办`);
+dv.el('div', `距今已使用ob <b style="color:red;font-size:20px;">${total}</b> 天，共创建 <b style="color:red;font-size:20px;">${totalMd}</b> 篇文档 <b style="color:red;font-size:20px;"> ${totalTag}</b> 个标签 <b style="color:red;font-size:20px;">${totalTask}</b> 个待办`);
 ```
 
 ---

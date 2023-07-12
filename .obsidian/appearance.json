@@ -3,7 +3,5 @@
   "cssTheme": "Blue Topaz",
   "theme": "moonstone",
   "baseFontSize": 14,
-  "enabledCssSnippets": [
-    "home"
-  ]
+  "enabledCssSnippets": []
 }

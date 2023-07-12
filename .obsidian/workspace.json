@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "document/虚拟机/虚拟机安装macOS13.20.md",
+                "file": "list.md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "document/虚拟机/虚拟机安装macOS13.20.md"
+                "file": "list.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "document/虚拟机/虚拟机安装macOS13.20.md",
+                "file": "list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "document/虚拟机/虚拟机安装macOS13.20.md",
+                "file": "list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,9 +177,10 @@
   "lastOpenFiles": [
     "home.md",
     "list.md",
-    "document/基本语法.md",
-    "document/VS Code/vsCode安装和基本配置.md",
+    "未命名.md",
     "document/虚拟机/虚拟机安装macOS13.20.md",
+    "document/VS Code/vsCode安装和基本配置.md",
+    "document/基本语法.md",
     "document/Git/Git2.41安装和配置.md",
     "document/VS Code/annex/Pasted image 20230628204500.png",
     "document/VS Code/annex/Pasted image 20230628204359.png",

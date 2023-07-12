@@ -20,30 +20,30 @@
     "list.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 12,
-      "pageCount": 0.04,
-      "characterCount": 220,
-      "nonWhitespaceCharacterCount": 202,
+      "wordCount": 10,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 212,
+      "nonWhitespaceCharacterCount": 196,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1688130775092,
-      "modifiedDate": 1688131771676,
-      "sizeInBytes": 220
+      "modifiedDate": 1689165300873,
+      "sizeInBytes": 212
     },
     "home.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 737,
-      "pageCount": 2.4566666666666666,
-      "characterCount": 7450,
+      "wordCount": 726,
+      "pageCount": 2.42,
+      "characterCount": 7437,
       "nonWhitespaceCharacterCount": 5216,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1687953245915,
-      "modifiedDate": 1688980627575,
-      "sizeInBytes": 7988
+      "modifiedDate": 1689165155901,
+      "sizeInBytes": 7955
     },
     "document/虚拟机/虚拟机安装ubuntu20.04.md": {
       "isDirectory": false,

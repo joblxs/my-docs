@@ -1,5 +1,3 @@
-```
-```
 ```dataviewjs
 dv.list( dv.pages(``)
 		.filter(p=>moment(Number(p.file.cday)).get("year")==2023)
