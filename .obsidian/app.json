@@ -7,6 +7,6 @@
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./annex",
+  "attachmentFolderPath": "document/static/annex",
   "showInlineTitle": false
 }

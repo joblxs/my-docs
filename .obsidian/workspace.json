@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "72a731554a648f02",
+        "id": "cf873940175e5c6b",
         "type": "tabs",
         "children": [
           {
-            "id": "a573dc80dadd6d47",
+            "id": "d8039dca674c054e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "list.md",
-                "mode": "preview",
-                "source": true
+                "file": "document/1panel/1panel安装.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -78,7 +78,7 @@
       {
         "id": "c4302c0d1642a874",
         "type": "tabs",
-        "dimension": 44.57364341085272,
+        "dimension": 60.049019607843135,
         "children": [
           {
             "id": "691af20a600789a2",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "list.md"
+                "file": "document/1panel/1panel安装.md"
               }
             }
           },
@@ -114,7 +114,7 @@
       {
         "id": "8c8d88f53df9034d",
         "type": "tabs",
-        "dimension": 55.42635658914728,
+        "dimension": 39.950980392156865,
         "children": [
           {
             "id": "474787bf47ef06f1",
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "list.md",
+                "file": "document/1panel/1panel安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "list.md",
+                "file": "document/1panel/1panel安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,37 +173,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a573dc80dadd6d47",
+  "active": "d8039dca674c054e",
   "lastOpenFiles": [
-    "home.md",
+    "document/static/annex/Pasted image 20231029152615.png",
+    "document/static/annex/Pasted image 20231029152503.png",
+    "document/static/annex/Pasted image 20231029152448.png",
+    "document/static/annex/Pasted image 20231029152340.png",
+    "document/static/annex/Pasted image 20231029152319.png",
+    "document/static/annex/Pasted image 20231029152245.png",
+    "document/static/annex/Pasted image 20231029151943.png",
+    "document/static/annex/Pasted image 20231029151733.png",
+    "document/static/annex/Pasted image 20231029151717.png",
+    "document/static/annex/Pasted image 20231029151444.png",
+    "document/static/annex/Pasted image 20231029151320.png",
+    "document/hexo/安装hexo.md",
+    "document/1panel/1panel安装.md",
+    "document/hexo/初始化博客项目.md",
     "list.md",
-    "未命名.md",
-    "document/虚拟机/虚拟机安装macOS13.20.md",
-    "document/VS Code/vsCode安装和基本配置.md",
+    "home.md",
     "document/基本语法.md",
-    "document/Git/Git2.41安装和配置.md",
-    "document/VS Code/annex/Pasted image 20230628204500.png",
-    "document/VS Code/annex/Pasted image 20230628204359.png",
-    "document/VS Code/annex/Pasted image 20230628204356.png",
-    "document/VS Code/annex/Pasted image 20230628202957.png",
-    "document/VS Code/annex/Pasted image 20230628202358.png",
-    "document/VS Code/annex/Pasted image 20230628202259.png",
-    "document/VS Code/annex/Pasted image 20230628202214.png",
-    "document/VS Code/annex/Pasted image 20230628201908.png",
-    "document/VS Code/annex/Pasted image 20230628201849.png",
-    "document/VS Code/annex/Pasted image 20230628201717.png",
-    "document/VS Code/annex",
+    "document/static/annex",
+    "document/static",
+    "document/新建文件夹",
+    "document/hexo/测试图片.md",
+    "document/annex",
+    "document/NodeJs/nvm下载安装及node版本管理.md",
     "document/Git/上传项目到GitHub.md",
-    "document/VS Code",
+    "document/hexo/annex",
+    "document/hexo",
+    "document/h.md",
+    "document/PHP/phpstudy安装.md",
+    "document/1panel/annex",
+    "document/1panel",
+    "document/PHP/annex",
+    "document/PHP",
+    "document/Git/Git2.41安装和配置.md",
     "document/虚拟机/虚拟机安装ubuntu20.04.md",
+    "document/虚拟机/虚拟机安装macOS13.20.md",
+    "document/虚拟机/虚拟机安装Windows7.md",
     "document/知识网站/免费知乎盐选分享.md",
-    "document/虚拟机/images",
-    "新建文件夹",
-    "document/虚拟机/annex",
-    "document/虚拟机",
-    "document/知识网站",
-    "document/搞机",
-    "document/Git/annex",
-    "document/Git"
+    "document/VS Code/vsCode安装和基本配置.md"
   ]
 }
