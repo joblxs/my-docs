@@ -20,49 +20,49 @@
 
 - 打开Unlocker，以管理员身份运行win-install.cmd 以解锁虚拟机
 
-!![](../static/annex/2023-06-23-18-58-30-image.png)
+![](../static/annex/2023-06-23-18-58-30-image.png)
 
 #### 新建虚拟机
 
 - 打开VMware17，创建新虚拟机，并选择典型安装
 
-!![](../static/annex/2023-06-23-19-01-05-image.png)
+![](../static/annex/2023-06-23-19-01-05-image.png)
 
 - 点击浏览，选择下载好macOS系统的文件夹
 
 - 选择系统镜像，选择好镜像文件以后点击下一步
 
-!![](../static/annex/2023-06-23-19-03-08-image.png)
+![](../static/annex/2023-06-23-19-03-08-image.png)
 
 - 选择Apple macOS X，最下面选择安装的系统版本，选择安装的版本，并进行下一步
 
-!![](../static/annex/2023-06-23-19-05-08-image.png)
+![](../static/annex/2023-06-23-19-05-08-image.png)
 
 - 定义名称，及选择安装的位置，并进行下一步
 
-!![](../static/annex/2023-06-23-19-08-55-image.png)
+![](../static/annex/2023-06-23-19-08-55-image.png)
 
 - 分配磁盘容量，选择将虚拟磁盘存储为单个文件，并进行下一步
 
-!![](../static/annex/2023-06-23-19-10-23-image.png)
+![](../static/annex/2023-06-23-19-10-23-image.png)
 
 - 自定义硬件设定虚拟机的内存、网络模式等
 
-!![](../static/annex/2023-06-23-19-11-59-image.png)
+![](../static/annex/2023-06-23-19-11-59-image.png)
 
-!![](../static/annex/2023-06-23-19-19-50-image.png)
+![](../static/annex/2023-06-23-19-19-50-image.png)
 
 - 设置完成，打开保存虚拟机文件的目录，找到.vmx结尾的文件，打开在末尾添加smc.version = 0
 
-!![](../static/annex/2023-06-23-22-32-22-image.png)
+![](../static/annex/2023-06-23-22-32-22-image.png)
 
 #### 开启虚拟机
 
-!![](../static/annex/2023-06-23-19-20-31-image.png)
+![](../static/annex/2023-06-23-19-20-31-image.png)
 
 - 选择简体中文
 
-!![](../static/annex/2023-06-23-19-22-21-image.png)
+![](../static/annex/2023-06-23-19-22-21-image.png)
 
 - 选择磁盘工具
 
@@ -70,77 +70,77 @@
 
 - 然后点击磁盘工具左上角的关闭按钮关闭
 
-!![](../static/annex/2023-06-23-19-23-40-image.png)
+![](../static/annex/2023-06-23-19-23-40-image.png)
 
-!![](../static/annex/2023-06-23-19-25-58-image.png)
+![](../static/annex/2023-06-23-19-25-58-image.png)
 
 - 安装macOS到抹掉并重命名为shuai的磁盘，等待安装完成
 
-!![](../static/annex/2023-06-23-19-29-58-image.png)
+![](../static/annex/2023-06-23-19-29-58-image.png)
 
-!![](../static/annex/2023-06-23-19-31-16-image.png)
+![](../static/annex/2023-06-23-19-31-16-image.png)
 
-!![](../static/annex/2023-06-23-19-32-47-image.png)
+![](../static/annex/2023-06-23-19-32-47-image.png)
 
 #### 引导
 
 - 地区选择中国，键盘选择简体中文，之后无脑继续
 
-!![](../static/annex/2023-06-23-20-14-02-image.png)
+![](../static/annex/2023-06-23-20-14-02-image.png)
 
 - 选择以后，网络设置-继续
 
-!![](../static/annex/2023-06-23-20-14-55-image.png)
+![](../static/annex/2023-06-23-20-14-55-image.png)
 
-!![](../static/annex/2023-06-23-20-19-46-image.png)
+![](../static/annex/2023-06-23-20-19-46-image.png)
 
 - 数据迁移，以后
 
-!![](../static/annex/2023-06-23-20-20-27-image.png)
+![](../static/annex/2023-06-23-20-20-27-image.png)
 
-!![](../static/annex/2023-06-23-20-20-59-image.png)
+![](../static/annex/2023-06-23-20-20-59-image.png)
 
 - 创建账户和密码
 
-!![](../static/annex/2023-06-23-20-22-18-image.png)
+![](../static/annex/2023-06-23-20-22-18-image.png)
 
 - 选择地区
 
-!![](../static/annex/2023-06-23-20-31-18-image.png)
+![](../static/annex/2023-06-23-20-31-18-image.png)
 
 - 安装完毕
 
-!![](../static/annex/2023-06-23-20-37-02-image.png)
+![](../static/annex/2023-06-23-20-37-02-image.png)
 
 ### 配置
 
 ##### 调试网络
 
-!![](../static/annex/2023-06-23-20-40-21-image.png)
+![](../static/annex/2023-06-23-20-40-21-image.png)
 
 - 关闭客户机，编辑虚拟机设置
 
 ps：调试了半天，最后还是选择桥接模式可以连接网络了，如果选择桥接模式没有网，在进行下边操作试试
 
-!![](../static/annex/2023-06-24-02-48-41-image.png)
+![](../static/annex/2023-06-24-02-48-41-image.png)
 
 #### 安装VMwaer Tools
 
 - 如果无法安装，下载darwin.iso
 
-!![](../static/annex/2023-06-23-23-54-09-image.png)
+![](../static/annex/2023-06-23-23-54-09-image.png)
 
 - 选择下载好的darwin.iso文件
 
-!![](../static/annex/2023-06-24-03-00-48-image.png)
+![](../static/annex/2023-06-24-03-00-48-image.png)
 
 重新启动macOs
 
-!![](../static/annex/2023-06-23-23-41-14-image.png)
+![](../static/annex/2023-06-23-23-41-14-image.png)
 
-!![](../static/annex/2023-06-23-23-41-26-image.png)
+![](../static/annex/2023-06-23-23-41-26-image.png)
 
-!![](../static/annex/2023-06-23-23-51-25-image.png)
+![](../static/annex/2023-06-23-23-51-25-image.png)
 
 - 如果安装失败，偏好设置允许
 
@@ -152,25 +152,25 @@ ps：调试了半天，最后还是选择桥接模式可以连接网络了，如
 
 - 网络适配器，网络连接选择NAT模式，确定
 
-!![](../static/annex/2023-06-23-21-39-15-image.png)
+![](../static/annex/2023-06-23-21-39-15-image.png)
 
 设备状态-已连接设置；打开cmd，输入services.msc
 
-!![](../static/annex/2023-06-23-21-44-56-image.png)
+![](../static/annex/2023-06-23-21-44-56-image.png)
 
 把框起来的这三项，右键-启动，启动后变成正在运行
 
-!![](../static/annex/2023-06-23-21-47-19-image.png)
+![](../static/annex/2023-06-23-21-47-19-image.png)
 
 - 打开控制面板，搜索网络连接
 
-!![](../static/annex/2023-06-23-21-43-32-image.png)
+![](../static/annex/2023-06-23-21-43-32-image.png)
 
 - 找到VMnet8的连接，右键属性-->共享
 
-!![](../static/annex/2023-06-23-21-29-45-image.png)
+![](../static/annex/2023-06-23-21-29-45-image.png)
 
 - 勾选允许其他网络用户通过此计算机的Internet连接来连接 
 - 选择VMware
 
-!![](../static/annex/2023-06-23-21-30-29-image.png)
+![](../static/annex/2023-06-23-21-30-29-image.png)

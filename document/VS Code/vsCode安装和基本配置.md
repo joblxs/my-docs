@@ -6,17 +6,17 @@ Visual Studio Code 是一个轻量级功能强大的源代码编辑器，支持�
 -下载地址： [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/Download)
 #### vsCode安装
 - 同意协议
-!![](../static/annex/Pasted%20image%2020230628201717.png)
+![](../static/annex/Pasted%20image%2020230628201717.png)
 - 浏览，选择安装的位置
-!![](../static/annex/Pasted%20image%2020230628201849.png)
+![](../static/annex/Pasted%20image%2020230628201849.png)
 - 选择开始菜单文件夹
-!![](../static/annex/Pasted%20image%2020230628201908.png)
+![](../static/annex/Pasted%20image%2020230628201908.png)
 - 选择附加任务
-!![](../static/annex/Pasted%20image%2020230628202214.png)
+![](../static/annex/Pasted%20image%2020230628202214.png)
 - 准备安装
-!![](../static/annex/Pasted%20image%2020230628202259.png)
+![](../static/annex/Pasted%20image%2020230628202259.png)
 - 安装完成
-!![](../static/annex/Pasted%20image%2020230628202358.png)
+![](../static/annex/Pasted%20image%2020230628202358.png)
 ## 基本配置
 #### 插件篇
 - Chinese-设置为中文

@@ -17,20 +17,6 @@
     "pageCountType": "ByWords"
   },
   "cachedCounts": {
-    "list.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 10,
-      "pageCount": 0.03333333333333333,
-      "characterCount": 212,
-      "nonWhitespaceCharacterCount": 196,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1688130775092,
-      "modifiedDate": 1712974034818,
-      "sizeInBytes": 212
-    },
     "home.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -45,19 +31,33 @@
       "modifiedDate": 1689165155901,
       "sizeInBytes": 7955
     },
-    "document/虚拟机/虚拟机安装Windows7.md": {
+    "list.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 94,
-      "pageCount": 0.31333333333333335,
-      "characterCount": 2069,
-      "nonWhitespaceCharacterCount": 1968,
+      "wordCount": 10,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 212,
+      "nonWhitespaceCharacterCount": 196,
       "linkCount": 0,
-      "embedCount": 27,
+      "embedCount": 0,
       "aliases": null,
-      "createdDate": 1698561545193,
-      "modifiedDate": 1712974608365,
-      "sizeInBytes": 2615
+      "createdDate": 1688130775092,
+      "modifiedDate": 1712974034818,
+      "sizeInBytes": 212
+    },
+    "document/知识网站/免费知乎盐选分享.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 47,
+      "pageCount": 0.15666666666666668,
+      "characterCount": 640,
+      "nonWhitespaceCharacterCount": 340,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1687871854198,
+      "modifiedDate": 1687871603474,
+      "sizeInBytes": 723
     },
     "document/虚拟机/虚拟机安装ubuntu20.04.md": {
       "isDirectory": false,
@@ -87,19 +87,19 @@
       "modifiedDate": 1712974622222,
       "sizeInBytes": 4452
     },
-    "document/知识网站/免费知乎盐选分享.md": {
+    "document/虚拟机/虚拟机安装Windows7.md": {
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 47,
-      "pageCount": 0.15666666666666668,
-      "characterCount": 640,
-      "nonWhitespaceCharacterCount": 340,
+      "wordCount": 94,
+      "pageCount": 0.31333333333333335,
+      "characterCount": 2069,
+      "nonWhitespaceCharacterCount": 1968,
       "linkCount": 0,
-      "embedCount": 0,
+      "embedCount": 27,
       "aliases": null,
-      "createdDate": 1687871854198,
-      "modifiedDate": 1687871603474,
-      "sizeInBytes": 723
+      "createdDate": 1698561545193,
+      "modifiedDate": 1712974608365,
+      "sizeInBytes": 2615
     },
     "document/基本语法.md": {
       "isDirectory": false,
@@ -157,6 +157,20 @@
       "modifiedDate": 1712974608437,
       "sizeInBytes": 4632
     },
+    "document/hexo/安装hexo.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 21,
+      "pageCount": 0.07,
+      "characterCount": 327,
+      "nonWhitespaceCharacterCount": 305,
+      "linkCount": 0,
+      "embedCount": 4,
+      "aliases": null,
+      "createdDate": 1712939001042,
+      "modifiedDate": 1712975072216,
+      "sizeInBytes": 371
+    },
     "document/hexo/初始化博客项目.md": {
       "isDirectory": false,
       "noteCount": 1,
@@ -170,20 +184,6 @@
       "createdDate": 1712970909156,
       "modifiedDate": 1712974608437,
       "sizeInBytes": 537
-    },
-    "document/hexo/安装hexo.md": {
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 21,
-      "pageCount": 0.07,
-      "characterCount": 327,
-      "nonWhitespaceCharacterCount": 305,
-      "linkCount": 0,
-      "embedCount": 4,
-      "aliases": null,
-      "createdDate": 1712939001042,
-      "modifiedDate": 1712974608437,
-      "sizeInBytes": 371
     },
     "document/Git/上传项目到GitHub.md": {
       "isDirectory": false,
@@ -212,6 +212,62 @@
       "createdDate": 1687871853867,
       "modifiedDate": 1712974608437,
       "sizeInBytes": 5231
+    },
+    "document/blog/搭建博客（一）.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 158,
+      "pageCount": 0.5266666666666666,
+      "characterCount": 2207,
+      "nonWhitespaceCharacterCount": 2038,
+      "linkCount": 5,
+      "embedCount": 12,
+      "aliases": null,
+      "createdDate": 1712995941374,
+      "modifiedDate": 1713000801399,
+      "sizeInBytes": 3130
+    },
+    "document/blog/安装主题（三）.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1779,
+      "pageCount": 5.93,
+      "characterCount": 16254,
+      "nonWhitespaceCharacterCount": 13296,
+      "linkCount": 0,
+      "embedCount": 9,
+      "aliases": null,
+      "createdDate": 1713000989804,
+      "modifiedDate": 1713011072287,
+      "sizeInBytes": 21432
+    },
+    "document/blog/基础配置及用法（二）.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 198,
+      "pageCount": 0.66,
+      "characterCount": 2942,
+      "nonWhitespaceCharacterCount": 2645,
+      "linkCount": 0,
+      "embedCount": 3,
+      "aliases": null,
+      "createdDate": 1713002718811,
+      "modifiedDate": 1713007310111,
+      "sizeInBytes": 4492
+    },
+    "document/2022-08-09-Markdown语法与外挂标签写法汇总.md": {
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 7521,
+      "pageCount": 25.07,
+      "characterCount": 60621,
+      "nonWhitespaceCharacterCount": 51172,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1713017975021,
+      "modifiedDate": 1679470454000,
+      "sizeInBytes": 77423
     },
     "document/1panel/1panel安装.md": {
       "isDirectory": false,
